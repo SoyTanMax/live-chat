@@ -26,7 +26,6 @@
 import { ref } from '@vue/reactivity'
 import useSignup from '../composables/useSignup'
 
-
 export default {
     setup (props, context) {
 
