@@ -21,8 +21,8 @@ export default {
 </script>
 
 <style scoped>
-.chatbox{
-    margin: 180px auto;
-
+.chatroom{
+    padding: 2.5%;
 }
+
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <nav class="navbar is-info" v-if="user">
-        <div class="navbar-item has-text-white">
-            <p class="is-size-5">Hey there {{ user.displayName }}</p>
+    <nav class="navbar is-white block" v-if="user">
+        <div class="navbar-item has-text-black column">
+            <p class="is-size-5">Hey there, <strong>{{ user.displayName }}</strong> </p>
             <p class="email is-size-7">Currently logged in as {{ user.email }}</p>
         </div>
         <div class="navbar-item">
@@ -33,5 +33,8 @@ export default {
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    width: 100%;
 }
 </style>
