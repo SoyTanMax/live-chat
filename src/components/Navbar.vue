@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar is-white block" v-if="user">
+    <nav class="navbar" v-if="user">
         <div class="navbar-item has-text-black column">
             <p class="is-size-5">Hey there, <strong>{{ user.displayName }}</strong> </p>
             <p class="email is-size-7">Currently logged in as {{ user.email }}</p>
@@ -34,7 +34,9 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 12px;
+    border-radius: 12px 12px 0 0;
     width: 100%;
+    padding: 2%;
+    background: rgb(247, 247, 247);
 }
 </style>

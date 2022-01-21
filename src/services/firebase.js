@@ -9,13 +9,13 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDIZeJe_MC5d8bq5VvhSOaG8bzTipC9dnM",
-  authDomain: "dojo-blog-6b410.firebaseapp.com",
-  projectId: "dojo-blog-6b410",
-  storageBucket: "dojo-blog-6b410.appspot.com",
-  messagingSenderId: "831020584395",
-  appId: "1:831020584395:web:e14c90ee120de817e17a4e",
-  measurementId: "G-YGEE52E0JX"
+  apiKey: process.env.VUE_APP_API_KEY,
+  authDomain: "live-chat-f3a72.firebaseapp.com",
+  projectId: "live-chat-f3a72",
+  storageBucket: "live-chat-f3a72.appspot.com",
+  messagingSenderId: "657414440288",
+  appId: "1:657414440288:web:90e7486f0ef116efa84a05",
+  measurementId: "G-GLVMPTY258"
 };
 
 // Initialize Firebase
